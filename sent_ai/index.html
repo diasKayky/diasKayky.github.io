@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<title>Sent.AI - Análise de Sentimento usando Inteligência Artificial</title>
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light ">
+  		<div class="container-fluid" style="padding: 0; margin: 0;">
+    		<a class="navbar-brand" href="https://diaskayky.github.io/sent-ai"><img class="img-fluid" id="logo" src="logo.png"></a>
+    	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      	<span class="navbar-toggler-icon"></span>
+    	</button>
+    	<div class="collapse navbar-collapse" id="navbarNav">
+      		<ul class="navbar-nav ml-auto" style="font-size: 1.8rem;">
+        		<li class="nav-item">
+          		<a class="nav-link" href="#">Sobre</a>
+        		</li>
+        		<li class="nav-item">
+          		<a class="nav-link" href="#">Repositório</a>
+          		</li>
+          		<li class="nav-item">
+          		<small style="font-size: 13px; padding-left: 40px;">Feito com ❤️ por <a href="https://github.com/diasKayky" target="_blank">Kayky Santos</a></small>
+        		</li>
+      		</ul>
+    	</div>
+  </div>
+</nav>
+
+
+	<div class="container-fluid gradient-div bg-gradient-primary rounded text-center" id="main">
+		<h1 class="display-1" id="titulo">Rápido. Eficiente. Adaptável.</h1>
+		<h3 class="display-3" style="font-size: 1.5rem; text-decoration-thickness: 2px;">Aplicação em inteligência artificial (IA) que faz análise de sentimento.</h3>
+
+		<div class="mb-3 container-fluid" style="width: 500px; padding-top: 40px;">
+  			<label for="exampleFormControlTextarea1" class="form-label">Insira o texto para análise</label>
+  			<textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+  			<button class="btn btn-primary" style="margin: 1.7rem;">Enviar para análise</button>
+
+		</div>
+
+		<div class="mb-3 container-fluid" id="resultado" visible="no" style="width: 500px; padding-top: 1.6rem;">
+			<h4 class="display-4" style="font-size: 1.5rem; text-align: left;">Resultado:</h4>
+			<p style="text-align: left;">A análise de sentimento revelou que o tom do seu texto é .</p>
+		</div>
+
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+ 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+ 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+ 	<script type="text/javascript">
+
+ 		const tf = require('@tensorflow/tfjs-node');
+
+ 		console.log("Hey!");
+
+
+ 	</script>
+</body>
+
+</html>
